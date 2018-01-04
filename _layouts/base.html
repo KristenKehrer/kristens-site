@@ -1,0 +1,40 @@
+---
+---
+<html>
+
+<head>
+  <title>Kristen Kehrer</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link rel="stylesheet" href="{{'css/main.css' | relative_url }}"/>
+
+
+</head>
+
+<body>
+  <div class="container header">
+    
+    <ul class="nav">
+      <li class="nav-brand">
+          <div>Kristen Kehrer</div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if page.url == '/' %} active {% endif %}" href="{{"/" | relative_url}}">home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link {% if page.url == '/links/' %} active {% endif %}" href="{{"/links" | relative_url}}">links</a>
+      </li>
+
+    </ul>
+  </div>
+  <div class="auto-scroll content">
+    <div class="container content-container">
+      {{content}}
+    </div>
+  </div>
+  <div class="container footer">
+    <span>&copy; Kristen Keherer - 2018</span>
+  </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,72 @@
+---
+---
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  font-family: 'Varela Round', sans-serif;
+  background-color: #fef4ff;
+}
+
+.header {
+  flex: 0 0 auto;
+  margin-bottom:15px;
+}
+
+.header h2 {
+  margin-bottom: 10px;
+  margin-top:10px;
+  margin-left: 15px;
+}
+
+.header a {
+  color: white;
+}
+
+.header .active {
+  font-weight: bold;
+}
+
+.header a:hover {
+  color: black;
+}
+
+.nav-brand div {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.nav {
+  margin-top: 10px;
+  background: linear-gradient(to right, #af16af, #fef4ff);
+  border-radius: 8px;
+  padding-left:20px;
+  color: white;
+}
+
+.content {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.content-container {
+  margin-top: 15px;
+}
+
+.footer {
+  flex: 0 0 auto;
+  text-align: center;
+}
+
+.auto-scroll {
+  overflow-y: auto;
+}
+
+.link-date {
+  color: #b1a8a8;
+  font-style: italic;
+}
